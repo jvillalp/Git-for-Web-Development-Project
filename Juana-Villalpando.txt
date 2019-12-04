@@ -1,43 +1,216 @@
-Codepen: 
+
+
+Codepen link: https://codepen.io/jvillalp/pen/BayyjMW
+
+
     1. What is Semantic HTML? 
-    Semantic means a language that has meaning or logic so when this is applied to HTML, it is a universal language we use to define
+
+    Semantic means a language that has meaning or logic so when this is applied to HTML, 
+    we are saying the HTML is a semantic language used amoung all developers. For Example,
+    h1 is a universal tag that is understood to be used a the largest header size 
+    amoung h1-h6.
 
     2. What is HTML used for? 
+
+    HTML is used to create electronics pages that are viewed over the internet. 
+    HTML can create hyperlinks, they can display images and texts. It is was 
+    allows us to view content online.
+
     3. What is an attribute and where do we put it? 
+
+    An attribute provides additional information about the element.
+    We put them in the start tag. <div class='red'>
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+
+    H1 is usually used for the title or the beginning of a web page. 
+    It is always usually the first header. 
+    Probably not very often unless you have different subsections that are important
+    to your webpage.
+
     5. Name two tags that have required attributes
+
+    The img tag <img src''> and the a tag < a href''>
+
     6. What do we put in the head of our HTML document? 
+
+    The head can include the title of a document, links.
+
     7. What is an id? 
+
+    id used to specify a unique id for an HTML element. It can manipulate
+    the style found inside the specified id.
+
     8. What elements can I add an id to? 
+
+    To any HTML element.
+
     9. How many times can I use the same id on a page? 
-    10. What is a class? 
+
+    Only once
+
+    10. What is a class?
+
+    An atribute that specifies one or more names for an HTML element. 
+    They allow CSS, for example, to use that atribute in order to perform certain 
+    tasks for the elements. 
+
     11. What elements can I add a class to? 
+
+    To any HTML element.
+
     12. How many times can I use the same class on a page? 
+
+    As many times  you want.
+
     13. How do I get my link to open in a new tab?
+
+    Add target='_blank' to links.
+
     14. What is the alt attribute used for? 
+
+    alt attribute used to specify an alt text for an area when an image does not appear.
+    It can state what the image is in text in case user can view it. 
+
     15. How do I reference an id?
+
+    #
+
     16. What is the difference between a section and a div
+
+    <section> tag defines section in a document like headers and footers. 
+    <div> tag is used to group block elements to format them in CSS.
+
     17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
+
+    CSS is used to style our HTML in an consistant and organized fashion.
+
+    18. How do we select an element? Example - every h2 on the page
+
+    h2 {
+
+    }
+
     19. What is the difference between a class and an id? - Give me an example of when I  might use each one
+
+    A class can be defined multiple times in a webpage
+    An id can only define one element in a webpage.
+
+    I might use a class when i have four paragraphs in different divs that I want displayed
+    with the same attributes. 
+    I might use an id tag if one of those four paragraphs I want styled differently than the other 3. 
+
     20. How do we select classes in CSS?
+
+    .
+
     21. How do we select a p element with a single class of “human””?
+
+    p.human
+
     22. What is a parent child selector? When would this be useful? 
+
+    The parent child selctor is used when we want to select elements that have
+    a common parent. (all <p>'s in a div)
+
+    This would be useful when we are trying to style the children of a specific 
+    parent element.
+
     23. How do you select all links within a div with the class of sidebar?
+
+    .sidebar a:link{
+
+    }
+
     24. What is a pseudo selector?
+
+    Specifies a special state of the selected element. 
+    For example we can use :hover, :checked, :visited so that the color of a link will change when 
+    a user hovers, checks, or visits link.
+
     25. What do we use the change the spacing between lines?
+
+    line-height properties
+    {
+        line-height:normal;
+
+    }
+
     26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    
+    {
+    letter-spacing:
+    line-height:
+    }
+
+    27. What do we use to change everything to CAPITALS? lowercase? Capitalize?
+    
+    {
+    text-transforma uppercase;
+    text-transform: lowercase;
+    text-transform: Capitalize;
+    }
+
     28. How do I add a 1px border around my div that is dotted and black?
+
+    {
+        border-width: 1px;
+        border-color: #FFFFF;
+        border-style: 'dotted';
+    }
+
+
     29. How do I select everything on the page? 
+
+    *selector
+    example:
+    *{
+        color: #FFFFFF;
+    }
+
     30. How do I write a comment in CSS?
+
+    You start multiline (or single line) comments with 
+    */ and end with /*
+
     31. How do I find out what file I am in, when I am using the command line? 
+
+    pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls (list)
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    It gets deleted permanently; does not go into the trash.
+
     34. Why should I use version control? 
+
+    In order to be able to collaborate with teammates working on same portion of a project you are.
+    To organize different versions of software.
+
     35. How often should I commit to github?
+
+    Very often, especially when a major addition has been impliemented.
+
     36. What is the command we would use to push our repo up to github? 
+
+    git push -u orign branch name
+
     37. Walk me through Lambda's git flow. 
+
+    Fork
+    add TL as collaborator
+    Clone repo locally
+    cd into your project
+    create a seperate branch
+    add/remove files you would like to stage before commit (git add, git rm)
+    commit with a commit message (git committ -m '')
+    push (git push -u origin branch name)
+    create a pull request
+    push code into master
+
 
 Stretch Questions
 
